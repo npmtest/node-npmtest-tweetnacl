@@ -1,6 +1,6 @@
 # npmtest-tweetnacl
 
-#### test coverage for  [tweetnacl (v0.14.5)](https://tweetnacl.js.org)  [![npm package](https://img.shields.io/npm/v/npmtest-tweetnacl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tweetnacl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tweetnacl.svg)](https://travis-ci.org/npmtest/node-npmtest-tweetnacl)
+#### basic test coverage for  [tweetnacl (v0.14.5)](https://tweetnacl.js.org)  [![npm package](https://img.shields.io/npm/v/npmtest-tweetnacl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tweetnacl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tweetnacl.svg)](https://travis-ci.org/npmtest/node-npmtest-tweetnacl)
 
 #### Port of TweetNaCl cryptographic library to JavaScript
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-tweetnacl/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-tweetnacl/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tweetnacl/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tweetnacl/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tweetnacl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tweetnacl/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-tweetnacl/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-tweetnacl/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tweetnacl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tweetnacl/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-tweetnacl/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tweetnacl/build/coverage.html/index.html)
 
@@ -104,7 +104,8 @@
         "test-node-all": "make -C test/c && tape test/*.js test/c/*.js | faucet"
     },
     "types": "nacl.d.ts",
-    "version": "0.14.5"
+    "version": "0.14.5",
+    "bin": {}
 }
 ```
 
